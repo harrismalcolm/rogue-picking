@@ -1,0 +1,144 @@
+/* ------------
+COLOURS
+
+Light Green: #77a466
+
+------------*/
+
+/*---------------
+GENERAL STYLES
+------------------*/
+body{
+    font-size: 14px;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+    background: #fff;
+}
+
+#wrapper{
+    width:1200px;
+    margin: 0 auto;
+}
+
+#logo{
+    display: block;
+    float: left;
+    width: 580px;
+}
+
+#logo h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#logo span{
+    color: #77a466;
+}
+
+#nav-bar{
+    float: left;
+    padding: 10px;
+}
+
+#nav-bar ul{
+  text-align: right;
+  list-style-type: none;
+  margin: 25px 10px 0 80px;
+}
+
+#nav-bar li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color:#77a466;
+    font-weight: bold;
+}
+
+#hero-img img{
+    width: 100%;
+    border: 3px solid #77a466;
+}
+
+#main h2{
+    font-size: 18px;
+    color:#77a466;
+    text-transform: uppercase;
+    margin:15px 0;
+}
+
+#main p{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.column{
+   float: left;
+   width: 33.3%;
+   height: 175px;
+   margin-bottom: 40px;
+   margin-left: -5px;
+   border-top: 1px solid #dedbdc;
+   border-bottom: 1px solid #dedbdc;
+   border-left: 1px solid #dedbdc;
+}
+
+.column h4{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu{
+    border-left: none;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 2.25;
+    color: #77a466;
+}
+
+#review p{
+    padding-left: 10px;
+}
+
+#contact h4{
+    padding-left: 20px;
+}
+
+#contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+footer{
+    text-align: center;
+}
+
+footer h3{
+    text-transform: uppercase;
+}
+
+footer h3 em{
+    color:#77a466;
+    font-family: "Wisdom Script";
+    text-transform: none;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
